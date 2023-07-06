@@ -8,6 +8,7 @@ import it from '../locales/it.json';
 import ptBR from '../locales/ptBR.json';
 import ru from '../locales/ru.json';
 import zh from '../locales/zh.json';
+import kr from '../locales/kr.json';
 
 const getKnownLanguage = (language: string) => {
   switch (language) {
@@ -27,6 +28,8 @@ const getKnownLanguage = (language: string) => {
       return ru;
     case 'zh':
       return zh;
+    case 'kr':
+      return kr;
     default:
       return 'en';
   }
