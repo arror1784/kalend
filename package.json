@@ -18,7 +18,7 @@
   "style": "dist/styles/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nibdo/kalend"
+    "url": "https://github.com/arror1784/kalend"
   },
   "dependencies": {
     "color": "4.2.3",
